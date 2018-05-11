@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  display:flex;
+  padding-top:100px;
 }
 
 .App-logo {
@@ -22,6 +23,38 @@
   font-size: large;
 }
 
+#toDo{
+  width:500px;
+  float:right;
+  padding-right: 20px;
+}
+
+.list-group-item:hover{
+  background-color: blueviolet;
+}
+
+#prompt{
+  width:500px;
+  flot:left;
+  padding-left:20px;
+}
+
+#appContainer{
+  display:flex;
+}
+
+#need{
+  width:400px;
+  height:120px;
+}
+
+.completed {
+  background-color: pink;
+}
+
+/*.selected{*/
+/*background-color: blueviolet;*/
+/*}*/
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
