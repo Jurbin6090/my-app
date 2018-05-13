@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
+// import '../app/App.css';
 import logo from './logo.svg';
 
-class Icon extends Component {
+class Logo extends Component {
     render() {
         return (
-            <div className={"Icon"}>
-                <img style={{height:100, width:100}} alt='React Icon' className={'App-logo'} src={logo}></img>
+            <div className={"Logo"}>
+                <img style={{height:100, width:100}} alt='React Icon' className={'Logo'} src={logo}></img>
             </div>
         );
     }
 }
 
-export default Icon;
+export default Logo;

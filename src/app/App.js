@@ -1,25 +1,20 @@
 import React, {Component} from 'react';
-import './Title.css';
-import MyComponent from "./MyComponent";
-import Title from "./Title"
-import List from "./List";
-import JustinList from "./JustinList";
+import './App.css';
+import Header from "../header/Header";
+import Sidebar from "../sidebar/Sidebar";
+import Content from "../content/Content";
 
 class App extends Component {
-
-    constructor(props) {
-        super(props);
-
-        console.log('App Initialized')
-    }
-
     render() {
         return (
-            <div>
-                {/*<Title/>*/}
-                {/*<MyComponent/>*/}
-                {/*<List/>*/}
-                <JustinList/>
+            <div className="mainpage">
+                <div>
+                    <Header/>
+                </div>
+                <div>
+                    <Sidebar/>
+                    <Content/>
+                </div>
             </div>
         );
     }
